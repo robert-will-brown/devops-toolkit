@@ -12,7 +12,7 @@
 * [Storage](server-management/storage/README.md)
   * [Volume Management](server-management/storage/volume-management/README.md)
     * [LVM](server-management/storage/volume-management/lvm.md)
-    * [Veritas Volume Manager](server-management/storage/volume-management/veritas-volume-manager.md)
+    * [VXVM](server-management/storage/volume-management/vxvm.md)
   * [Tape](server-management/storage/tape.md)
   * [Filesystems](server-management/storage/filesystems/README.md)
     * [SamFS](server-management/storage/filesystems/samfs.md)

@@ -1,2 +1,0 @@
-# Veritas Volume Manager
-
