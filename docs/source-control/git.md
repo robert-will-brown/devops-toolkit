@@ -12,5 +12,9 @@ Checking object directories: 100% (256/256), done.
 Checking objects: 100% (80/80), done.
 ```
 
+### Convert a bare git repository into a normal one
+
+{% embed url="https://stackoverflow.com/questions/10637378/how-do-i-convert-a-bare-git-repository-into-a-normal-one-in-place" %}
+
 
 
