@@ -19,8 +19,7 @@
     * [VXFS](server-management/storage/filesystems/vxfs.md)
     * [ZFS](server-management/storage/filesystems/zfs.md)
   * [Disks](server-management/storage/disks.md)
-* [Shell](server-management/shell/README.md)
-  * [Script Snippets](server-management/shell/script-snippets.md)
+  * [Script Snippets](server-management/storage/script-snippets.md)
 
 ## Virtualisation
 
