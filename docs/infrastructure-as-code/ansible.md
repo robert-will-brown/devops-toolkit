@@ -70,8 +70,7 @@ Galaxy provides pre-packaged units of work known to Ansible as roles.
 ### Version
 
 ```bash
-$ ansible --version
-ansible 2.9.6
+ansible --version
 ```
 
 ### Listing hosts
@@ -79,38 +78,25 @@ ansible 2.9.6
 List all of the hosts configured in the `ansible.cfg` file.
 
 ```bash
-$ ansible --list-hosts all
-  hosts (4):
-    app1
-    app2
-    lb
-    control
+ansible --list-hosts all
 ```
 
 List a group of hosts defined in the configuration file.
 
 ```bash
-$ ansible --list-hosts loadbalancers
-  hosts (1):
-    lb
+ansible --list-hosts loadbalancers
 ```
 
 List all of the app servers defined in the configuration file.
 
 ```bash
-$ ansible --list-hosts app*
-  hosts (2):
-    app1
-    app2
+ansible --list-hosts app*
 ```
 
 List all hosts apart from the app servers.
 
 ```bash
-$ ansible --list-hosts \!app*
-  hosts (2):
-    lb
-    control
+ansible --list-hosts \!app*
 ```
 
 ### Interactive
@@ -118,19 +104,19 @@ $ ansible --list-hosts \!app*
 Run uptime on all of the "webservers" and "loadbalancers".
 
 ```bash
-$ ansible -m shell -a "uptime" webservers:loadbalancers
+ansible -m shell -a "uptime" webservers:loadbalancers
 ```
 
 Stop a service on host.
 
 ```bash
-$ ansible -m service -a "name=httpd state=started" --become loadbalancers
+ansible -m service -a "name=httpd state=started" --become loadbalancers
 ```
 
 Print all available variables available from host "app1".
 
 ```bash
-$ ansible -m setup app1
+ansible -m setup app1
 ```
 
 ### Playbooks
@@ -138,25 +124,25 @@ $ ansible -m setup app1
 Run a playbook.
 
 ```bash
-$ ansible-playbook setup-app.yml
+ansible-playbook setup-app.yml
 ```
 
 Run a playbook in Check mode \(dry-run\).
 
 ```bash
-$ ansible-playbook setup-app.yml --check
+ansible-playbook setup-app.yml --check
 ```
 
 Run a playbook with specific tags.
 
 ```bash
-$ ansible-playbook setup-app.yml --tags myfirsttag
+ansible-playbook setup-app.yml --tags myfirsttag
 ```
 
 Prompt for password that is referenced in a playbook.
 
 ```bash
-$ ansible-playbook setup-app.yml --ask-vault-pass
+ansible-playbook setup-app.yml --ask-vault-pass
 ```
 
 ### Vault
@@ -164,12 +150,12 @@ $ ansible-playbook setup-app.yml --ask-vault-pass
 Create a Vault.
 
 ```bash
-$ ansible-vault create secret-variables.yml
+ansible-vault create secret-variables.yml
 ```
 
 Edit a Vault.
 
 ```bash
-$ ansible-vault edit secret-variables.yml
+ansible-vault edit secret-variables.yml
 ```
 
