@@ -8,6 +8,13 @@ Ansible’s strengths are simplicity, ease-of-use and a language that is designe
 
 Ansible manages machines in an agent-less manner using SSH.  This means that it can also automate configuration of other devices such as switches.
 
+## Links
+
+| Doc | Link |
+| :--- | :--- |
+| Ansible User Guide | [https://docs.ansible.com/ansible/latest/user\_guide](https://docs.ansible.com/ansible/latest/user_guide) |
+| Ansible Galaxy | [https://galaxy.ansible.com/home](https://galaxy.ansible.com/home) |
+
 ## Components & Terms
 
 ### Control node
