@@ -26,10 +26,10 @@
 * [Ansible](infrastructure-as-code/ansible.md)
 * [CloudFormation](infrastructure-as-code/cloudformation.md)
 * [Chef](infrastructure-as-code/chef.md)
-* [Puppet](infrastructure-as-code/puppet.md)
-* [Terraform](infrastructure-as-code/terraform.md)
-* [Shell Provisioning Tricks](infrastructure-as-code/shell-provisioning-tricks.md)
 * [Infrastructure Provisioning](infrastructure-as-code/infrastructure-provisioning.md)
+* [Puppet](infrastructure-as-code/puppet.md)
+* [Shell Provisioning Tricks](infrastructure-as-code/shell-provisioning-tricks.md)
+* [Terraform](infrastructure-as-code/terraform.md)
 
 ## Monitoring
 
