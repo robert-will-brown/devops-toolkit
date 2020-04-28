@@ -3,7 +3,6 @@
 # Pre-Commit hooks: rob.brown@visual20.com
 #
 #
-
 echo ""
 echo -e '\033[1;34m➡ Running Pre-Commit Validation...\033[0m'
 echo ""
