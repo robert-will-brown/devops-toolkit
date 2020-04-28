@@ -2,13 +2,18 @@
 
 ## Introduction
 
-cads
+Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
+
+Configuration files describe to Terraform the components needed to run a single application or your entire datacenter. Terraform generates an execution plan describing what it will do to reach the desired state, and then executes it to build the described infrastructure. As the configuration changes, Terraform is able to determine what changed and create incremental execution plans which can be applied.
+
+The infrastructure Terraform can manage includes low-level components such as compute instances, storage, and networking, as well as high-level components such as DNS entries, SaaS features, etc.
 
 ## Links
 
-|  |  |
+| Content | Link |
 | :--- | :--- |
-|  |  |
+| Provider Reference | [https://www.terraform.io/docs/providers/](https://www.terraform.io/docs/providers/) |
+| Terraform Glossary | [https://www.terraform.io/docs/glossary.html](https://www.terraform.io/docs/glossary.html) |
 
 ## Files
 
@@ -50,6 +55,12 @@ variable "mylist" {
 ```
 {% endtab %}
 {% endtabs %}
+
+### Providers
+
+A provider is responsible for understanding API interactions and exposing resources. Providers generally are an IaaS \(e.g. Alibaba Cloud, AWS, GCP, Microsoft Azure, OpenStack\), PaaS \(e.g. Heroku\), or SaaS services \(e.g. Terraform Cloud, DNSimple, Cloudflare\).
+
+{% embed url="https://www.terraform.io/docs/providers/" %}
 
 ### Backends & Enchanced Backends \(State tracking\)
 
