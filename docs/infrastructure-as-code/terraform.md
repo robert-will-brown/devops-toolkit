@@ -23,7 +23,7 @@ _Providers_ allow technically anything with an API to be configured by terraform
 
 | File | Purpose |
 | :--- | :--- |
-| `terraform.tfstate` | Tracks the remote state of the infrastructure.  Allows terraform to re-align the remote infrastructure.  This file can be kept in source control. |
+| `terraform.tfstate` | Tracks the remote state of the infrastructure.  Allows terraform to re-align the remote infrastructure.  This file can be kept in source control and is JSON format. |
 
 ## Components & Terms
 
