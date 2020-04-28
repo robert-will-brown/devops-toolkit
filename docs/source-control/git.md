@@ -18,5 +18,15 @@ Bare repositories are used on hosted servers, and can be converted into normal r
 
 {% embed url="https://stackoverflow.com/questions/10637378/how-do-i-convert-a-bare-git-repository-into-a-normal-one-in-place" %}
 
+## .gitignore
 
+### Terraform
+
+```bash
+*/terraform.tfvars
+*/terraform.tfstate
+*/terraform.tfstate.backup
+*/.terraform
+*/mykey*
+```
 
