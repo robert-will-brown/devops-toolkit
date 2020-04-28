@@ -152,3 +152,43 @@ Destroy Terraform managed infrastructure.
 terraform destroy
 ```
 
+### Fmt
+
+Rewrite terraform configuration files to a canonical format and style.
+
+```bash
+example needed
+```
+
+### Get
+
+Download and updates modules.
+
+### Graph
+
+Create a visual representaion of a configuration or execution plan.
+
+### State
+
+Rename a resource.
+
+```bash
+terraform state mv aws_instance.example aws_instance.production
+```
+
+### Taint & Untaint
+
+Manually mark a resource as tainted, meaning it will be destroyed and recreated at the next `apply`.
+
+### Validate syntax
+
+Validate Syntax.
+
+```bash
+
+```
+
+### Import configuration
+
+Manually mark a resource as tainted, meaning it will be destroyed and recreated at the
+
