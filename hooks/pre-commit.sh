@@ -8,7 +8,7 @@ echo ""
 echo -e '\033[1;34m➡ Running Pre-Commit Validation...\033[0m'
 echo ""
 
-if [ -z ${AWS_DEFAULT_PROFILE+x} ]; then echo -e '\033[1;31m𝙓 AWS profile not set\033[0m'; exit 1; fi
+##if [ -z ${AWS_DEFAULT_PROFILE+x} ]; then echo -e '\033[1;31m𝙓 AWS profile not set\033[0m'; exit 1; fi
 
 
 # Get list of changed files
@@ -25,10 +25,10 @@ do
 		yamllint -d "{extends: relaxed, rules: {line-length: {max: 160}}}" "${ModifiedFile}"
 		echo -e '\033[1;32m✔︎ Ok.\033[0m'
 
-        # Validate CFN
-		echo -e "➡ CFN Validating \"${ModifiedFile}\" with AWS...\c"
-		aws cloudformation validate-template --template-body file://"${ModifiedFile}" 2>/dev/null 1>/dev/null
-		echo -e '\033[1;32m✔︎ Ok.\033[0m'
+#       # Validate CFN
+#		echo -e "➡ CFN Validating \"${ModifiedFile}\" with AWS...\c"
+#		aws cloudformation validate-template --template-body file://"${ModifiedFile}" 2>/dev/null 1>/dev/null
+#		echo -e '\033[1;32m✔︎ Ok.\033[0m'
 	;;
 
 	"json")
