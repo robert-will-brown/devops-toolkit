@@ -44,6 +44,7 @@
 * [Infrastructure Provisioning](infrastructure-as-code/infrastructure-provisioning/README.md)
   * [CloudFormation](infrastructure-as-code/infrastructure-provisioning/cloudformation.md)
   * [Terraform](infrastructure-as-code/infrastructure-provisioning/terraform.md)
+  * [Shell Provisioning Tricks](infrastructure-as-code/infrastructure-provisioning/shell-provisioning-tricks.md)
 
 ## Monitoring
 
