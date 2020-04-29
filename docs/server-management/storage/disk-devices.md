@@ -61,11 +61,10 @@ $ diskutil list
 The following command will destroy all data on the drive being scanned.
 {% endhint %}
 
-```text
+```bash
 $ badblocks -vws /dev/disk3
 Checking for bad blocks in read-write mode
 From block 0 to 312571223
 Testing with pattern 0xaa:   0.01% done, 0:07 elapsed. (0/0/0 errors)
-
 ```
 

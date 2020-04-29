@@ -178,14 +178,14 @@ terraform state mv aws_instance.example aws_instance.production
 
 ### Taint & Untaint
 
-Manually mark a resource as tainted, meaning it will be destroyed and recreated at the next `apply`.
+Manually mark a resource as tainted, meaning it will be destroyed and recreated at the next `terraform apply`.
 
 ### Validate syntax
 
 Validate Syntax.
 
 ```bash
-
+terraform validate
 ```
 
 ### Import configuration
