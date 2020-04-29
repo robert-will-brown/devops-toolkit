@@ -8,8 +8,8 @@
 
 ## Server Management
 
-* [Performance Tools](server-management/performance-tools.md)
 * [Service Management](server-management/service-management.md)
+* [Performance Tools](server-management/performance-tools.md)
 * [Script Snippets](server-management/script-snippets.md)
 * [Storage](server-management/storage/README.md)
   * [Disk Devices](server-management/storage/disk-devices.md)
