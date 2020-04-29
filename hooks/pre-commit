@@ -38,12 +38,12 @@ do
 	;;
 
 
-	"sh")
-		# Lint
-		echo -e "➡ ShellCheck \"${ModifiedFile}\"...\c"
-		shellcheck  --compact --quiet "${ModifiedFile}"
-		echo -e '\033[1;32m✔︎ Ok.\033[0m'
-	;;
+#	"sh")
+#		# Lint
+#		echo -e "➡ ShellCheck \"${ModifiedFile}\"...\c"
+#		shellcheck "${ModifiedFile}"
+#		echo -e '\033[1;32m✔︎ Ok.\033[0m'
+#	;;
 
 	*)
 		echo "➡ Dont know how to check file \"${ModifiedFile}\", skipping."
