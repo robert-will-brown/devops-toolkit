@@ -37,7 +37,6 @@ do
 		echo -e '\033[1;32m✔︎ Ok.\033[0m'
 	;;
 
-
 #	"sh")
 #		# Lint
 #		echo -e "➡ ShellCheck \"${ModifiedFile}\"...\c"
