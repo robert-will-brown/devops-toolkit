@@ -52,6 +52,12 @@ strings /sbin/init | grep -q "upstart" && echo UPSTART
 
 ## Service Commands
 
+List failed units
+
+```text
+systemctl list-units --state=failed
+```
+
 ### Start
 
 {% tabs %}
@@ -206,4 +212,6 @@ exec /usr/bin/foo-daemon --arg1 "hello world" --statedir "$statedir"
 ```
 {% endtab %}
 {% endtabs %}
+
+
 
